@@ -16,7 +16,7 @@ for i in range(1, count_str + 1):
     image.save(f"Product{i}.png")
     # image.show()
 
-api = '7125359141:AAHXQn1ff8XoTgdcuudMptvYg8GhdZJrcjs'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
